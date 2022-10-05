@@ -1,0 +1,282 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Orbitron, Arial, Helvetica, sans-serif;
+    background-color: #FF7F0D;
+    color: #FFF;
+
+}
+
+.container {
+    display: flex;
+    justify-items: center;
+    font-family: Orbitron;
+    overflow-x: hidden;
+    justify-content: space-between;
+    width: 990px;
+    color: black;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.logo {
+    margin-top: 10px;
+
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+
+}
+
+nav ul,
+nav li {
+    margin: 0;
+    padding: 5px;
+    list-style: none;
+}
+
+nav ul {
+    display: flex
+}
+
+nav a {
+    display: block;
+    padding: 18px;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFF;
+    font-family: Orbitron;
+    text-shadow: 0px 2px 0px #555;
+
+}
+
+nav a:hover {
+    background-image: url('../../imagens/menumouse.png');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    color: red;
+    display: block;
+    background-position: center;
+}
+
+#banner {
+    display: flex;
+    justify-content: center;
+    background-image: url('../../imagens/paisagem.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 670px;
+}
+
+#geral {
+    padding: 24px;
+    text-align: justify;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.materia {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin-bottom: 6px solid #fff;
+    align-items: center;
+
+}
+
+.titulo {
+    color: #FFF;
+    font-size: 40px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 0px 2px 0px #555;
+    border-bottom: solid 2px red;
+}
+
+.textoobra {
+    padding: 30px;
+    text-align: justify;
+}
+
+.historiaimagem {
+    align-items: baseline;
+}
+
+.titulo,
+.materia {
+    flex-direction: column;
+    display: flex
+}
+
+.primeiromanga {
+    flex-direction: row;
+    width: 30%;
+    height: 30%;
+}
+
+.imagem-textomanga {
+    display: flex;
+
+}
+
+.materiaanime {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sagasdb {
+    display: flex;
+    justify-items: center;
+
+}
+
+.textsagaclassic {
+
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.sagasdbz {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.textsagadbz {
+    align-items: center;
+    padding: 10px;
+    margin-top: 100px;
+}
+
+.sagasdbgt {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.textsagadbgt {
+    margin-top: 70px;
+    margin-right: 40px;
+
+}
+
+.textsagadbsuper {
+    margin-top: 70px;
+    justify-content: center;
+    margin-bottom: 100px;
+    justify-items: center;
+}
+
+
+.grupofilmedb{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    flex-direction: column;
+    align-items: left;
+    margin-top: 20px;
+}
+
+.boladbvazia{
+    display: flex;
+    flex-direction: row;
+    margin-top:20px;
+    margin-left: 15px;
+    align-items: center;
+}
+
+.boladb {
+    border: 2px solid #000;
+    border-radius: 25px;
+    width: 25px;
+    height: 25px; 
+    border: 2px solid #000;
+    border-radius: 30px;
+    width: 30px;
+    height: 30px; 
+    margin-right: 10px;
+}
+
+.boladb:hover {
+    border: 2px solid #000;
+    border-radius: 30px;
+    width: 30px;
+    height: 30px; 
+    background-image:url('../../imagens/logomenudb.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+    
+.boladbz {
+    border: 2px solid #000;
+    border-radius: 30px;
+    width: 30px;
+    height: 30px; 
+    margin-right: 10px;
+}
+
+.boladbz:hover {
+    border: 2px solid #000;
+    border-radius: 30px;
+    width: 30px;
+    height: 30px; 
+    background-image:url('../../imagens/logomenudbz.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.boladbsuper {
+    border: 2px solid #000;
+    border-radius: 25px;
+    width: 25px;
+    height: 25px; 
+    border: 2px solid #000;
+    border-radius: 30px;
+    width: 30px;
+    height: 30px; 
+    margin-right: 10px;
+}
+
+.boladbsuper:hover {
+    border: 2px solid #000;
+    border-radius: 30px;
+    width: 30px;
+    height: 30px; 
+    background-image:url('../../imagens/logomenudbsuper.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+   
+}
+
+.dbgmesframe {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.imgvegeta{
+    margin-top: 35px;
+}
+
+.infospessoais{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top:solid 2px #000;
+    margin-top: 20px;
+}
+
+
+
+
+.footerdb img {
+    height: 30px;
+    width: 30px;
+}
+
